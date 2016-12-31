@@ -314,7 +314,7 @@ class RuleSet(Qt5Ruleset.RuleSet):
         })
 
         self._modulecode = rules_engine.ModuleCodeDb({
-            "KConfigSkeletonItem":
+            "kcoreconfigskeleton.h":
             {
                 "code": _kcoreconfigskeleton_item_add_py_subclass,
             },
